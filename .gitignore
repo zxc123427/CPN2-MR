@@ -1,0 +1,22 @@
+# ------------------------------------------------------------------
+# 数据一律不入库
+#
+# deCODE 的数据使用协议明确规定不得再分发下载的文件
+#   ("You will not redistribute the downloaded files.")
+# 使用者需自行到 https://download.decode.is 接受协议后下载。
+# FinnGen 的区域数据可由 R/03_coloc.R 用 tabix 远程重新生成。
+# 详见 README「数据获取」一节。
+# ------------------------------------------------------------------
+data/
+
+# 文献原文(版权归原出版方,虽为 CC BY-SA 但不入代码库)
+*.pdf
+paper.txt
+
+# 临时与编辑器文件
+*.bak*.html
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store

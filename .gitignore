@@ -13,8 +13,11 @@ data/
 *.pdf
 paper.txt
 
+# 渲染出来的 HTML 笔记/手册,只留本地
+*.html
+
 # 临时与编辑器文件
-*.bak*.html
+*.bak
 .Rproj.user/
 .Rhistory
 .RData
